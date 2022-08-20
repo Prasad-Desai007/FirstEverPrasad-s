@@ -1,0 +1,42 @@
+Git installation.
+
+Follow below steps.
+
+> https://medium.com/codex/git-authentication-on-macos-setting-up-ssh-to-connect-to-your-github-account-d7f5df029320
+
+> Check SSH Connection ssh -T git@github.com 
+
+> Command to remove Remote origin
+
+git remote (find the instance)
+This will make your Git list all existing remotes for the current repository. If you want to get more detail, you can add the verbose parameter with the remote command, like this: 
+
+git remote -v (Remove).
+
+#####################################################################################################
+Push a file using Git .
+
+1) git init.
+
+The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+
+2) git add SampaleCode.txt-File name or git add . (All files from current directory will be staged)
+
+
+The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .
+
+3) git commit -m "Pass Some instructions"    
+
+The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
+
+4)  git branch -M main  
+
+
+5) git remote add origin https://github.com/Prasad-Desai007/FirstEverPrasad-s.git - > (SSH?HTTP? Choose appropriate command) 
+
+
+                                                                    
+
+
+
+
