@@ -11,7 +11,8 @@ Follow below steps.
 git remote (find the instance)
 This will make your Git list all existing remotes for the current repository. If you want to get more detail, you can add the verbose parameter with the remote command, like this: 
 
-git remote -v (Remove).
+git remote -v 
+git remote remove origin (Remove).
 
 #####################################################################################################
 Push a file using Git .
@@ -33,6 +34,11 @@ The git commit command captures a snapshot of the project's currently staged cha
 
 
 5) git remote add origin https://github.com/Prasad-Desai007/FirstEverPrasad-s.git - > (SSH?HTTP? Choose appropriate command) 
+
+6) git push -u origin main 
+
+The git push origin master command says "push the commits in the local branch named master to the remote named origin". Once this is executed, all the stuff that we last synchronised with origin will be sent to the remote repository and other people will be able to see them there.
+
 
 
                                                                     
